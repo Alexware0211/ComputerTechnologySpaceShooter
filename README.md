@@ -9,7 +9,7 @@ This purpose of this assignment was to make a space shooter in Unity utilized un
 
 # Performance
 
-I made two different versions, One which is this link  which uses no optimization. In that version once I spawn 25k asteroids the game initialy freezes then plays at 3-6 FPS.
+I made two different versions, One is this [link](https://github.com/Alexware0211/NoDOTSSpaceShooterr) which uses no optimization. In that version once I spawn 25k asteroids the game initialy freezes then plays at 3-6 FPS.
 
 ![image](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/fdecb5f3-56ba-435f-956d-4c02efe4f16e)
 
