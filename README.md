@@ -17,4 +17,12 @@ On this version however which utalizes dots I get no freeze at the spawning and 
 
 ![image](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/c1aecec0-2ab8-4ce8-bca4-1e85705e9673)
 
+# Optimization
 
+In order to optimize the project to save as much FPS as possible and increase the amount of asteroids if required I made use of ECS (Entity Componenet System) for my spawning, movement and shooting scripts. Thanks to the Job System and Burst Compiler I can spawn in 25k asteroids without any major cost of performance, that just goes to show how powerful ECS is, without it I wouldn't have been able to spawn in 25k asteroids as fluently.
+
+# Specs
+
+This was tested on the school Computer which is all things considers a rather good computer, the specs are as follows:
+- CPU 11th Gen Intel Core i5-11600k @ 3.90 GHz
+- GPU NVIDIA GeForce RTX 3060
