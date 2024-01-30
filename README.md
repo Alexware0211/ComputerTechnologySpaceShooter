@@ -9,20 +9,21 @@ This purpose of this assignment was to make a space shooter in Unity utilized un
 
 # Performance
 
-I made two different versions, One is this [link](https://github.com/Alexware0211/NoDOTSSpaceShooterr) which uses no optimization. In that version once I spawn 25k asteroids the game initialy freezes then plays at 3-6 FPS.
+I made two different versions, One which utilizes OOP (Object Oriented Programming). As you can see in the image below the frames were horrendous after 25k asteroids.
 
 ![image](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/fdecb5f3-56ba-435f-956d-4c02efe4f16e)
 
-On this version however which utalizes dots I get no freeze at the spawning and performance seems fine as I can do 40 FPS during 25k asteroids.
+On this version utilizing ECS I increased performance massively, as seen below at 25k asteroids I still get 40 fps which is a acceptable amount.
 
 ![image](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/c1aecec0-2ab8-4ce8-bca4-1e85705e9673)
 
 # Optimization
 
-In order to optimize the project to save as much FPS as possible and increase the amount of asteroids if required I made use of ECS (Entity Componenet System) for my spawning, movement and shooting scripts. Thanks to the Job System and Burst Compiler I can spawn in 25k asteroids without any major cost of performance, that just goes to show how powerful ECS is, without it I wouldn't have been able to spawn in 25k asteroids as fluently.
+For this project's optimization, I used ECS for every one of my scripts, covering spawning, moving, and shooting. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, ECS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance.
+
 
 # Specs
 
-This was tested on the school Computer which is all things considers a rather good computer, the specs are as follows:
+- 16 GB RAM
 - CPU 11th Gen Intel Core i5-11600k @ 3.90 GHz
 - GPU NVIDIA GeForce RTX 3060
