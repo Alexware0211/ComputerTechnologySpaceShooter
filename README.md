@@ -19,7 +19,7 @@ On this version utilizing ECS I increased performance massively, as seen below a
 
 # Optimization
 
-For this project's optimization, I used ECS for every one of my scripts, covering spawning, moving, and shooting. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, ECS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance.
+For this project's optimization, I used ECS fo, Burst Compiler and the Jobs System. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, DOTS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance. A example of the improvement was the Asteroids Movement. I changed it from the following 
 
 
 # Specs
