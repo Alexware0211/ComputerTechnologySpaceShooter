@@ -19,9 +19,15 @@ On this version utilizing ECS I increased performance massively, as seen below a
 
 # Optimization
 
-For this project's optimization, I used ECS fo, Burst Compiler and the Jobs System. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, DOTS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance. A example of the improvement was the Asteroids Movement logic. I changed it from the following [a Script](https://github.com/Alexware0211/NoDOTSSpaceShooterr/blob/main/Assets/Scripts/Asteroid.cs) into this improved [a Script](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/blob/main/Assets/Scripts/AsteroidMove.cs) which makes usage of DOTS. 
+For this project's optimization, I used ECS fo, Burst Compiler and the Jobs System. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, DOTS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance. One example of the improvement was the Asteroids Movement, Before any optimization the movement took way to long. In order to optimize I changed it from the following [a Script](https://github.com/Alexware0211/NoDOTSSpaceShooterr/blob/main/Assets/Scripts/Asteroid.cs) into this improved [a Script](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/blob/main/Assets/Scripts/AsteroidMove.cs) which makes usage of DOTS. As we can see in the images below everything improved but most important was the process per frame.
 
+Unoptimized
 
+![Unoptimized Asteroid Movement](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/f823dbd7-15ba-44a0-b1ee-7d8349186cda)
+
+Optimized
+
+![Optimized Asteroid Movement](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/assets/113015594/c21fcba5-420e-4757-9505-624173f811e5)
 
 # Specs
 
