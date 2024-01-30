@@ -19,7 +19,8 @@ On this version utilizing ECS I increased performance massively, as seen below a
 
 # Optimization
 
-For this project's optimization, I used ECS fo, Burst Compiler and the Jobs System. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, DOTS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance. A example of the improvement was the Asteroids Movement. I changed it from the following 
+For this project's optimization, I used ECS fo, Burst Compiler and the Jobs System. Utilizing object-oriented programming, I wouldn't possibly accomplish my 30 fps aim if 30,000 asteroids spawned simultaneously. Because of this, DOTS is incredibly strong and enables my game to have a large number of objects generated in the scene simultaneously without sacrificing performance. A example of the improvement was the Asteroids Movement logic. I changed it from the following [a Script](https://github.com/Alexware0211/NoDOTSSpaceShooterr/blob/main/Assets/Scripts/Asteroid.cs) into this improved [a Script](https://github.com/Alexware0211/ComputerTechnologySpaceShooter/blob/main/Assets/Scripts/AsteroidMove.cs) which makes usage of DOTS. 
+
 
 
 # Specs
